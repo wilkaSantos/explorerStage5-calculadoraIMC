@@ -29,7 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-A Calculadora IMC é uma aplicação desenvolvida para realizar o cáculo do índice de massa corporal.
+A Calculadora IMC é uma aplicação desenvolvida para realizar o cálculo do índice de massa corporal.
 <br/>
 - [Visite o projeto](https://github.com/wilkaSantos/explorerStage5-calculadoraIMC.git).
 
