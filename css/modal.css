@@ -1,0 +1,32 @@
+.conatiner-modal{
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+
+    display: grid;
+    place-content: center;
+}
+
+.modal{
+    border-radius: 1rem;
+    position: relative;
+}
+
+.closeButton{
+    position: absolute;
+    background: none;
+    border: none;
+
+    right: 1.9rem;
+    top: 1.4rem;
+    cursor: pointer;
+}
+
+.closeButton img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.popupTitle{
+    font-size: 2.5rem;
+}

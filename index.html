@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/global.css">
+        <script src="./js/index.js" type="module" defer></script>
+        <link rel="shortcut icon" href="./image/ico-fitness.png" type="image/x-icon">
+
+        <title>Calculadora IMC</title>
+    </head>
+    <body>
+        <div class="page">
+            <div class="container-error disable">
+                <p class="errorText">Favor preencher os dados corretamente.</p>
+            </div>
+            <main class="card">
+                <h1 class="imcTitle">Cálculo do IMC</h1>
+                <div class="wrapped">
+                    <label for="weight">Peso (Kg)</label>
+                    <input type="text" name="weight" id="weightField">
+                </div>
+                <div class="wrapped">
+                    <label for="height">Altura (cm)</label>
+                    <input type="text" name="height" id="heightField">
+                </div>
+                <input class="calculationButton" type="button" value="Calcular IMC">
+            </main>
+
+            <section class="conatiner-modal disable">
+                <div class="modal card">
+                    <button class="closeButton"><img src="./image/bt-close.png" alt="Imagem de um botão para fechar popup"></button>
+                    <h2 class="popupTitle"></h2>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>

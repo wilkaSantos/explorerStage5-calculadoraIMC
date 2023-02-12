@@ -1,0 +1,39 @@
+@import './index.css';
+@import './error.css';
+@import './modal.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+
+    --bg-page: #484c68;
+    --bg-form: #353b50;
+    --bg-textField: #DCE2E9;
+    --bg-button: #de3163;
+    --bg-error: #F03E3E;
+
+    --c-text: #ffffff;
+    --c-text-error: #e9e6e6;
+    --f-text: 'Roboto', sans-serif;
+}
+
+.page{
+    width: 100%;
+    height: 100vh;
+    background: var(--bg-page);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.disable{
+    display: none;
+}
